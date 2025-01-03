@@ -12,7 +12,7 @@ function read(...$filelist) {
     return $list;
 }
 
-$list = read('url/url-mp3-yd14-139.txt');
+$list = read('https://api.free163.com/url/url-mp3-yd14-139.txt');
 $url = $list[array_rand($list)];
 
 header("Location: {$url}");
