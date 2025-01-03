@@ -12,7 +12,7 @@ function read(...$filelist) {
     return $list;
 }
 
-$list = read('url-mp3-sc33.txt');
+$list = read('../url/url-mp3-sc33.txt');
 $url = $list[array_rand($list)];
 
 header("Location: {$url}");
