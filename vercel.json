@@ -139,7 +139,6 @@
   {"src": "/api/photo-shima.php", "dest": "/photo-shima.php"},
   {"src": "/api/photo-wangdong.php", "dest": "/photo-wangdong.php"},
   {"src": "/api/photo-weimei.php", "dest": "/photo-weimei.php"},
-  {"src": "/api/photo-xinggan.php", "dest": "/photo-xinggan.php"},
-  {"src": "/(.*)", "dest": "/api/index.php"}
+  {"src": "/api/photo-xinggan.php", "dest": "/photo-xinggan.php"}
   ]
 }
