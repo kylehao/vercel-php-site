@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $f='dog.txt';   //文件名
 $a=file($f);  //把文件的所有内容获取到数组里面
 $n=count($a); //获得总行数
@@ -10,7 +10,7 @@ $tit = date('m 月 d 日')." - 酷酷的江小鑫呀";
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<title>舔狗日记 - 小刀娱乐网www.xiaodao.biz</title>
+	<title>舔狗日记 - 听松阁www.free163.com</title>
 	<meta name="description" content="我们精心熬制了有史以来最毒1000多条舔狗日记,句句“治愈”人心! 只为了帮你更好的看清人生认识自己，直面现实,直面惨淡的人生,不给你励志,不给你慰藉,像一根鞭猛的抽你一下,使你清醒,知道这个世界和你自己最真实的一面,是青少年手机里的必备宝典。">
 	<meta name="keywords" content="鸡汤,社会经典语录,馊鸡汤,舔狗日记">
 	<meta http-equiv="Cache-Control" content="no-siteapp">
@@ -24,7 +24,7 @@ $tit = date('m 月 d 日')." - 酷酷的江小鑫呀";
 	<link href="./img/min.css" rel="stylesheet">
 	<link rel="alternate icon" type="image/png" href="icon.png">
 
-<noscript></head></noscript>
+</head>
 <body>
 <div class="top-wrap" style="position: absolute; top: 1vh;width: 100%;z-index: 999"> 
 <div class="container">
@@ -35,8 +35,9 @@ $tit = date('m 月 d 日')." - 酷酷的江小鑫呀";
 	    <div class="col">
 	    	<div class="float-right" style="padding-top: 0px;">
 	    		<a class="btn btn-primary btn-filled btn-xs" href="./index.php" >毒鸡汤</a>
-	    		<a class="btn btn-primary btn-filled btn-xs" href="./yulu.php" >经典语录</a>
-	    		<a class="btn btn-primary btn-filled btn-xs" href="https://111.gs" >博客</a>
+	    		<a class="btn btn-primary btn-filled btn-xs" href="./yulu.php" >经语录</a>
+				<a class="btn btn-primary btn-filled btn-xs" href="./dog.php" >舔狗日记</a>
+				<a class="btn btn-primary btn-filled btn-xs" href="./poem.php" >古诗文</a>
 	    	</div>
 	    </div>
 		</div>
@@ -62,7 +63,7 @@ $tit = date('m 月 d 日')." - 酷酷的江小鑫呀";
   		</div>
   		</div>
  <footer>
- <p class="text-center">© 2020 www.xiaodao.biz All rights reserved</p>
+ <p class="text-center">© 2020 www.free163.com All rights reserved</p>
 </footer>
 </div>
 

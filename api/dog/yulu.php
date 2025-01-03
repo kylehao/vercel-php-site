@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $f='yulu.txt';   //文件名
 $a=file($f);  //把文件的所有内容获取到数组里面
 $n=count($a); //获得总行数
@@ -24,7 +24,7 @@ $tit = date('m 月 d 日')." - 酷酷的江小鑫呀";
 	<link href="./img/min.css" rel="stylesheet">
 	<link rel="alternate icon" type="image/png" href="icon.png">
 
-<noscript></head></noscript>
+</head>
 <body>
 <div class="top-wrap" style="position: absolute; top: 1vh;width: 100%;z-index: 999"> 
 <div class="container">
@@ -35,8 +35,9 @@ $tit = date('m 月 d 日')." - 酷酷的江小鑫呀";
 	    <div class="col">
 	    	<div class="float-right" style="padding-top: 0px;">
 	    		<a class="btn btn-primary btn-filled btn-xs" href="./index.php" >毒鸡汤</a>
-	    		<a class="btn btn-primary btn-filled btn-xs" href="./dog.php" >舔狗日记</a>
-	    		<a class="btn btn-primary btn-filled btn-xs" href="https://111.gs" >博客</a>
+	    		<a class="btn btn-primary btn-filled btn-xs" href="./yulu.php" >经语录</a>
+				<a class="btn btn-primary btn-filled btn-xs" href="./dog.php" >舔狗日记</a>
+				<a class="btn btn-primary btn-filled btn-xs" href="./poem.php" >古诗文</a>
 	    	</div>
 	    </div>
 		</div>

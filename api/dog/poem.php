@@ -1,5 +1,5 @@
 <?php
-$f='dutang.txt';   //文件名
+$f='poem.txt';   //文件名
 $a=file($f);  //把文件的所有内容获取到数组里面
 $n=count($a); //获得总行数
 $rnd=rand(0,$n);    //产生随机行号
@@ -10,16 +10,16 @@ $tit = date('m 月 d 日')." - 酷酷的江小鑫呀";
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<title>毒鸡汤 - 壮士可要来一碗！</title>
-	<meta name="description" content="我们精心熬制了有屎以来最毒1000多条经典毒鸡汤,句句“治愈”人心! 只为了帮你更好的看清人生认识自己，直面现实,直面惨淡的人生,不给你励志,不给你慰藉,像一根鞭猛的抽你一下,使你清醒,知道这个世界和你自己最真实的一面,是青少年手机里的必备宝典。">
-	<meta name="keywords" content="鸡汤,毒鸡汤,馊鸡汤">
+	<title>古诗文 - 听松阁www.free163.com</title>
+	<meta name="description" content="我们精心熬制了有史以来最毒1000多条舔狗日记,句句“治愈”人心! 只为了帮你更好的看清人生认识自己，直面现实,直面惨淡的人生,不给你励志,不给你慰藉,像一根鞭猛的抽你一下,使你清醒,知道这个世界和你自己最真实的一面,是青少年手机里的必备宝典。">
+	<meta name="keywords" content="鸡汤,社会经典语录,馊鸡汤,舔狗日记">
 	<meta http-equiv="Cache-Control" content="no-siteapp">
 	<meta name="author" content="Admin@vxxt.cn" />
-	<meta property="og:title" content="毒鸡汤 - 壮士可要来一碗！" />
+	<meta property="og:title" content="舔狗日记 - 壮士可要来一碗！" />
 	<meta property="og:url" content="#" />
 	<meta property="og:image" content="icon.png" />
-	<meta property="og:site_name" content="毒鸡汤 - 壮士可要来一碗！" />
-	<meta property="og:description" content="我们精心熬制了有屎以来最毒1000多条经典毒鸡汤,句句“治愈”人心! 只为了帮你更好的看清人生认识自己，直面现实,直面惨淡的人生,不给你励志,不给你慰藉,像一根鞭猛的抽你一下,使你清醒,知道这个世界和你自己最真实的一面,是青少年手机里的必备宝典。"/>
+	<meta property="og:site_name" content="舔狗日记 - 壮士可要来一碗！" />
+	<meta property="og:description" content="我们精心熬制了有史以来最毒1000多条舔狗日记,句句“治愈”人心! 只为了帮你更好的看清人生认识自己，直面现实,直面惨淡的人生,不给你励志,不给你慰藉,像一根鞭猛的抽你一下,使你清醒,知道这个世界和你自己最真实的一面,是青少年手机里的必备宝典。"/>
 	<link rel="icon" href="/favicon.ico" type="image/x-icon" id="page_favionc">
 	<link href="./img/min.css" rel="stylesheet">
 	<link rel="alternate icon" type="image/png" href="icon.png">
@@ -30,11 +30,11 @@ $tit = date('m 月 d 日')." - 酷酷的江小鑫呀";
 <div class="container">
 	<div class="row" style="margin-top: 30px;">
 	    <div class="col">
-	      <img src="./img/logo.png">
+	      <img src="./img/logo_dog.png">
 	    </div>
 	    <div class="col">
 	    	<div class="float-right" style="padding-top: 0px;">
-			    <a class="btn btn-primary btn-filled btn-xs" href="./index.php" >毒鸡汤</a>
+	    		<a class="btn btn-primary btn-filled btn-xs" href="./index.php" >毒鸡汤</a>
 	    		<a class="btn btn-primary btn-filled btn-xs" href="./yulu.php" >经语录</a>
 				<a class="btn btn-primary btn-filled btn-xs" href="./dog.php" >舔狗日记</a>
 				<a class="btn btn-primary btn-filled btn-xs" href="./poem.php" >古诗文</a>
@@ -45,9 +45,9 @@ $tit = date('m 月 d 日')." - 酷酷的江小鑫呀";
 </div>
 
 <div class="main-wrapper" style="position: relative; top: -6vh;">
-<div class="container main-sentence justify-content-center text-center">	
+<div class="container main-sentence justify-content-center text-center">
         <div class="wrapper">				
-		<span id="text" style="font-size: 2rem;"><?=$rnd_line;?></span>
+		<span id="text" style="font-size: 1.5rem;"><?=$rnd_line;?></span>
         <textarea id="input">我才是幕后黑手,酷酷的江小鑫。</textarea>
         </div><br>
         <button class="btn btn-primary" onclick="copyText()">点我复制</button>
@@ -58,12 +58,12 @@ $tit = date('m 月 d 日')." - 酷酷的江小鑫呀";
 	<div class="container">
 		<div class="row">
 			<div class="col text-center">
-	            <span class="btn btn-primary btn-filled btn-xs"><a class="btn btn-primary btn-filled btn-xs" href="javascript:location.reload()" >再来一碗</a></span>
+	            <span class="btn btn-primary btn-filled btn-xs"><a class="btn btn-primary btn-filled btn-xs" href="javascript:location.reload()" >再来一首</a></span>
 	    </div>
   		</div>
   		</div>
  <footer>
- <p class="text-center">Copyright © 2020 <a href="https://www.111.gs" >听松阁</a> All rights reserved</p>
+ <p class="text-center">© 2020 www.free163.com All rights reserved</p>
 </footer>
 </div>
 
