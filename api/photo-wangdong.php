@@ -1,6 +1,6 @@
 <?php
 $domainName = $_SERVER['HTTP_HOST'];
-$img=file('https://'.$domainName.'url-pic-wangdong.txt');
+$img=file('https://'.$domainName.'/url-pic-wangdong.txt');
 $url=array_rand($img);
 header("Location:".$img[$url]);
 ?>
