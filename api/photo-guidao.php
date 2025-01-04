@@ -1,5 +1,6 @@
 <?php
-$img=file('url-pic-guidao.txt');
+$domainName = $_SERVER['HTTP_HOST'];
+$img=file('https://'.$domainName.'url-pic-guidao.txt');
 $url=array_rand($img);
 header("Location:".$img[$url]);
 ?>

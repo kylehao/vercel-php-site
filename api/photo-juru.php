@@ -1,5 +1,6 @@
 <?php
-$img=file('url-pic-juru.txt');
+$domainName = $_SERVER['HTTP_HOST'];
+$img=file('https://'.$domainName.'url-pic-juru.txt');
 $url=array_rand($img);
 header("Location:".$img[$url]);
 ?>

@@ -12,6 +12,7 @@ function read(...$filelist) {
     return $list;
 }
 
+$domainName = $_SERVER['HTTP_HOST'];
 $list = read('https://'.$domainName.'/url/url-mp3-github4.txt');
 $url = $list[array_rand($list)];
 
