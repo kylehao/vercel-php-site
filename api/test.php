@@ -13,7 +13,7 @@ function read(...$filelist) {
 }
 
 $domainName = $_SERVER['HTTP_HOST'];
-$list = read('https://'.$domainName.'/url/url-mp3-bg.txt');
+$list = read('https://raw.githubusercontent.com/kylehao/vercel-php-site/refs/heads/main/url/url-mp3-az1.txt');
 $url = $list[array_rand($list)];
 
 header("Location: {$url}");
